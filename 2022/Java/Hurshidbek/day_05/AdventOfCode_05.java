@@ -10,7 +10,7 @@ import java.util.Stack;
 /**
  * @author: Kodirov Hurshidbek
  * Date : 18.01.2023
- * Time : 23:00 PM
+ * Time : 23:00
  */
 
 public class AdventOfCode_05 {

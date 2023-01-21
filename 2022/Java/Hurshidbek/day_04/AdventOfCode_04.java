@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * @author: Kodirov Hurshidbek
  * Date : 18.01.2023
- * Time : 22:00 PM
+ * Time : 22:00
  */
 
 
@@ -47,10 +47,9 @@ public class AdventOfCode_04 {
         }
 
         bufferedReader.close();
-
     }
 
     /* Big O analyse
-     Time Complexity:  ;
-     Space Complexity:  */
+     Time Complexity:  O(n);
+     Space Complexity:  O(n) */
 }

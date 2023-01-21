@@ -9,7 +9,7 @@ import java.util.Map;
 /**
  * @author: Kodirov Hurshidbek
  * Date : 14.01.2023
- * Time : 22:00 PM
+ * Time : 22:00
  */
 
 

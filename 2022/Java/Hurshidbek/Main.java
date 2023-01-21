@@ -3,6 +3,8 @@ import day_02.AdventOfCode_02;
 import day_03.AdventOfCode_03;
 import day_04.AdventOfCode_04;
 import day_05.AdventOfCode_05;
+import day_06.AdventOfCode_06;
+import day_07.AdventOfCode_07;
 
 /**
  * @author: Kodirov Hurshidbek
@@ -14,7 +16,7 @@ import day_05.AdventOfCode_05;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        run(5);
+        run(6);
 
     }
 
@@ -48,6 +50,11 @@ public class Main {
                 AdventOfCode_05 adventOfCode_05 = new AdventOfCode_05(filePath);
                 answerPart1 = "" + adventOfCode_05.aoc5_1();
                 answerPart2 = "" + adventOfCode_05.aoc5_2();
+                break;
+            case 6:
+                AdventOfCode_06 adventOfCode_06 = new AdventOfCode_06(filePath);
+                answerPart1 = "" + adventOfCode_06.aoc6_1();
+                answerPart2 = "" + adventOfCode_06.aoc6_2();
                 break;
 
         }
